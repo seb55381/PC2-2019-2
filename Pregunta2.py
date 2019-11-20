@@ -5,7 +5,7 @@ def contarletra (texto, letra):
     for i in texto:
         a.append(i)
     algo = a.count(letra)
-    print(algo)
     return algo
 
 a = contarletra (texto, letra)
+print(a)
